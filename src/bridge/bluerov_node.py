@@ -9,7 +9,7 @@ import rospy
 import sys
 import time
 
-from bridge import Bridge
+from bridge.blue_bridge import Bridge
 
 try:
     from pubs import Pubs
